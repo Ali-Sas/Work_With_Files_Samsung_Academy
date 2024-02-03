@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Solution {
-    private static int len_file(Scanner file){ // ôóíêöèÿ äëÿ ïîäñ÷åòà ÷èñåë â ôàéëå
+    private static int len_file(Scanner file){
         int sum_number = 0;
 
         while (file.hasNext()){
@@ -20,8 +20,8 @@ public class Solution {
             File input = new File("src/main/java/files/Input.txt");
             File ouput = new File("src/main/java/files/Output.txt");
 
-            File ouput_1 = new File("src/main/java/files/Output_1.txt"); // ôàéë äëÿ ïðîìåæóòî÷íîãî ñîõðàíåíèÿ 1 ÷àñòè
-            File ouput_2 = new File("src/main/java/files/Output_2.txt"); // ôàéë äëÿ ïðîìåæóòî÷íîãî ñîõðàíåíèÿ 2 ÷àñòè
+            File ouput_1 = new File("src/main/java/files/Output_1.txt");
+            File ouput_2 = new File("src/main/java/files/Output_2.txt");
 
             Scanner scanner = new Scanner(input);
             PrintWriter op = new PrintWriter(ouput);
