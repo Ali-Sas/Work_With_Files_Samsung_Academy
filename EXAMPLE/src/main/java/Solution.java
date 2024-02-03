@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Solution {
-    private static int len_file(Scanner file){ // функция для подсчета чисел в файле
+    private static int len_file(Scanner file){ // ГґГіГ­ГЄГ¶ГЁГї Г¤Г«Гї ГЇГ®Г¤Г±Г·ГҐГІГ  Г·ГЁГ±ГҐГ« Гў ГґГ Г©Г«ГҐ
         int sum_number = 0;
 
         while (file.hasNext()){
@@ -11,6 +11,7 @@ public class Solution {
         }
         return sum_number;
     }
+    
     private static int i = 0;
 
     public static void main(String[] args) {
@@ -19,8 +20,8 @@ public class Solution {
             File input = new File("src/main/java/files/Input.txt");
             File ouput = new File("src/main/java/files/Output.txt");
 
-            File ouput_1 = new File("src/main/java/files/Output_1.txt"); // файл для промежуточного сохранения 1 части
-            File ouput_2 = new File("src/main/java/files/Output_2.txt"); // файл для промежуточного сохранения 2 части
+            File ouput_1 = new File("src/main/java/files/Output_1.txt"); // ГґГ Г©Г« Г¤Г«Гї ГЇГ°Г®Г¬ГҐГ¦ГіГІГ®Г·Г­Г®ГЈГ® Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї 1 Г·Г Г±ГІГЁ
+            File ouput_2 = new File("src/main/java/files/Output_2.txt"); // ГґГ Г©Г« Г¤Г«Гї ГЇГ°Г®Г¬ГҐГ¦ГіГІГ®Г·Г­Г®ГЈГ® Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї 2 Г·Г Г±ГІГЁ
 
             Scanner scanner = new Scanner(input);
             PrintWriter op = new PrintWriter(ouput);
